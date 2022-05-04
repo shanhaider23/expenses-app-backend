@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "build": "react-scripts build",
     "build:ui": "rmdir /s /q build && cd ../expense-split && npm run build --prod && xcopy build \"C:\\Users\\JB MADHUBALA\\Projects\\expense-split-backend\\build\" /e /i",
     "deploy": "git push heroku master",
     "deploy:full": "npm run build:ui && git add . && git commit -m ui_build && git push & npm run deploy"
