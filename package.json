@@ -23,8 +23,5 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^1.19.4"
-  },
-  "engines": {
-    "node": "14.x"
   }
 }
